@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-spring"
+  description: "test"
+  annotations:
+    github.com/project-slug: thoughtoinnovate/my-spring-backapp
+    backstage.io/techdocs-ref: url:https://github.com/thoughtoinnovate/my-spring-backapp
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "Hitesh"
